@@ -24,10 +24,11 @@ http://localhost/vatValidator.php (validate csv)
 http://localhost/validateOne.php (online form)
 
 ## CSV Format (see exampleVat.csv)
-
+```
 id,vat
 001,IT12345678901
 002,98765432158
+```
 
 ## Features
 
