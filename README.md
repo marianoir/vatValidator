@@ -20,6 +20,7 @@ or create database with  mysql -u root -p < database/seed.sql
 ## Access
 
 http://localhost/vatValidator.php (validate csv)
+
 http://localhost/validateOne.php (online form)
 
 ## CSV Format (see exampleVat.csv)
