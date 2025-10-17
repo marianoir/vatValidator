@@ -12,11 +12,10 @@ Application to validate whether a number is an italian valid vat por not.
 
 1) Download and install XAMPP
 2) Go to xampp/htdocs 
-3) git clone 
+3) git clone  https://github.com/marianoir/vatValidator
 3) Start both apache and mysql server
-
-4) Read file /database/seed.sql and paste into phpmyadmin http://localhost/phpmyadmin/index.php
-or create database with  mysql -u root -p < database/seeder.sql
+4) Open file /database/seed.sql copy and paste into phpmyadmin http://localhost/phpmyadmin/index.php
+or create database with  mysql -u root -p < database/seed.sql
  
 
 ## Access
@@ -32,7 +31,8 @@ id,vat
 
 ## Features
 
-- Validate italian vats when uploading a csv with data (read the exampleVat.csv to see the structure)
+- Validate italian vats when uploading a csv with data (read the exampleVat.csv to see the structure), the screen shows the first table with valid and corrected vats and a second table below with invalid vats.
+- First row is ignored.
 - Validate single italian vat using a online form (http://localhost/validateOne.php) 
 - Corrects italian vat that doesnt have the "IT" as prefix.
 - Throws error in case the VAT is invalid or incomplete.

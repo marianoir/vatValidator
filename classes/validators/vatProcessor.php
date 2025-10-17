@@ -18,8 +18,14 @@ class vatProcessor
     public function validateVats($vats): array
     {
         $vatResults = [];
+        $isFirst = true;
         foreach ($vats as $vat)
         {
+            if ($isFirst)
+            {
+                $isFirst = false;
+                continue;
+            }            
             $validationResult = $this->validator->validate($vat['vat']);
             $validationResult['id'] = $vat['id'];
             $validationResult['vat'] = $vat['vat'];
