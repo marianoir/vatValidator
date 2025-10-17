@@ -39,8 +39,8 @@ id,vat
 - Throws error in case the VAT is invalid or incomplete.
 - Saves data in database
 
-## Database
-
+## Database 
+DatabaseName: vat_validator
 Table: `vat_numbers`
 - `id` - auto increment
 - `client_id` - from CSV
