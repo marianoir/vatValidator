@@ -17,14 +17,12 @@ Application to validate whether a number is an italian valid vat por not.
 4) Open file /database/seed.sql copy and paste into phpmyadmin http://localhost/phpmyadmin/index.php
 or create database with  mysql -u root -p < database/seed.sql
  
-
 ## Access
 
 http://localhost/vatValidator.php (validate csv)
 http://localhost/validateOne.php (online form)
 
 ## CSV Format (see exampleVat.csv)
-```
 id,vat
 001,IT12345678901
 002,98765432158
